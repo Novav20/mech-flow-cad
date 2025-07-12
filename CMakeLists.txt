@@ -8,3 +8,4 @@ add_subdirectory(src)
 add_subdirectory(tests)
 
 add_executable(MechFlow_App src/main.cpp)
+target_link_libraries(MechFlow_App PRIVATE MechFlow_Geometry)
