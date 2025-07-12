@@ -50,6 +50,7 @@ vcpkg is the chosen dependency manager. It is pre-installed and configured withi
 
 *   **Commit Messages:** Follow conventional commits (e.g., `feat:`, `fix:`, `docs:`).
 *   **Pushing Changes:** `git push` (after `git add` and `git commit`).
+*   **Commit Condition:** Only commit and push changes when the application successfully compiles and executes. This ensures a stable and working state after each commit.
 
 ## 7. Project Structure
 
