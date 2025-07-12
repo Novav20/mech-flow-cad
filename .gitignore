@@ -1,0 +1,21 @@
+# CMake build files
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+*.so # Shared libraries
+*.a  # Static libraries
+
+# IDE specific (e.g., VS Code)
+.vscode/
+
+# Compiler output
+*.o
+*.gcov
+*.gcda
+*.gcno
+
+# OS specific
+.DS_Store
+Thumbs.db

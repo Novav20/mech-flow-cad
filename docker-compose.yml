@@ -1,0 +1,10 @@
+services:
+  dev:
+    build: .
+    user: "${UID}:${GID}"
+    volumes:
+      - .:/app
+    # Sobrescribir el comando por defecto para iniciar una shell interactiva
+    command: /bin/bash
+    tty: true
+    stdin_open: true
