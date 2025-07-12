@@ -84,5 +84,6 @@ MechFlow/
 *   **Verify:** Before declaring a task complete or moving to the next step, ensure the project compiles and runs successfully (if applicable).
 *   **User Confirmation:** For significant changes or if unsure, always confirm with the user.
 *   **No Assumptions:** Do not assume libraries, frameworks, or tools are available unless explicitly stated in the plan or confirmed by existing project files (e.g., `CMakeLists.txt`, `vcpkg.json`).
+*   **Documentation Updates:** After each commit, update `GEMINI.md` and `DEVIATIONS.md` (if necessary) to reflect the latest project state and any deviations.
 
 **Next Steps:** The project is ready to proceed with Day 2 tasks as per the weekly plan.
